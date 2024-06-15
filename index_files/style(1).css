@@ -1,0 +1,3942 @@
+/*
+File Name: style.css
+Theme Name: KAAST Machine Tools
+Author: KAAST
+Version: 1.5
+Author URI: http://kaast-usa.com
+Theme URI: http://rttheme17.demo-rt.com
+Description: This website is based on <a href="http://rttheme17.demo-rt.com" target="_blank">RT-Theme 17</a> (version 2.4), by <a href="http://themeforest.net/user/stmcan">Tolga Can</a>, and has been heavily modified. This thing is kind of a mess. You probably don't want to buy a theme update license; what this website needs is a restart from scratch with a simple business theme which uses WordPress best practices and the Customizer. Theme Options panels are not helpful. Also themes that require data be hard-coded into it, or inserted into theme-specific options pages makes it impossible to use a different theme and keep your data, so you want to eventually start with something that follows WP best practices, unlike this theme.
+*/
+
+/* ---------- RT-Theme 17 styles are located in /css/style.css ---------- */
+
+
+/* Mexico styles */
+
+.tax-product_categories .product_info {
+	font-size: 0;
+}
+
+.tax-product_categories .product_info h5 {
+	font-size: 16px;
+}
+
+
+
+
+/* ---------- Typography ---------- */
+
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#navigation_bar > ul > li > a,
+.breadcrumb {
+	font-family: 'Open Sans', "Arial", arial, sans-serif;
+}
+
+/* Font weights and styles */
+
+a,
+a.button,
+.bold,
+.orange,
+.orange-bold,
+/* Home page */
+.home h1 + h2,
+.home .home-content-box h3,
+.home h1 + h2 + p .number,
+.home .stacked p .number,
+.home a,
+.home .flex-caption h3,
+.nav-number,
+/* Bread crumbs */
+.breadcrumb,
+table tbody .orange-model,
+.paging li,
+/* Widgets */
+.widget .title h3,
+/* Product categories */
+.product_boxes h5 {
+	font-weight: bold;
+}
+
+/* Fix navigation menu font weight */
+
+#navigation_bar a,
+#navigation ul li,
+#navigation_bar > ul > li > a {
+	font-weight: normal;
+}
+
+/* Italic */
+
+q,
+.italic {
+	font-style: italic;
+}
+
+/* Underline */
+
+a,
+.single-portfolio .widget_text a,
+.home a,
+.home a.button:hover {
+	text-decoration: none;
+}
+
+.home h1 + h2 + p .number,
+.home .stacked p .number,
+.home a:hover {
+	text-decoration: underline;
+}
+
+/* Text-wrap */
+
+.no-wrap,
+.nowrap {
+	white-space: nowrap;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Text align */
+
+.text-center,
+a.button {
+	text-align: center;
+}
+
+/* Blog */
+a.read_more {
+	text-align: right;
+}
+
+/* Font size and line height */
+
+h5 {
+	line-height: 1.6em;
+}
+
+#navigation ul li {
+	font-size: 1em;
+}
+
+a.button,
+.yellow-box {
+	font-size: 1.5em;
+}
+
+.nav-number {
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.breadcrumb {
+	line-height: 1.4em;
+}
+
+.feature,
+.page-id-1558 .blog p /* Blog page */ {
+	font-size: 1.25em;
+	line-height: 1.67;
+}
+
+a.button {
+	line-height: 100%;
+}
+
+a.button.secondary {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.home h1 + h2 {
+	font-size: 1.4em;
+}
+
+.home .home-content-box h3 {
+	font-size: 1.75em;
+}
+
+.paging li a {
+	font-size: 1em;
+}
+
+.widget .title h3 {
+	font-size: 1.5em !important;
+}
+
+.single-portfolio .widget_text ul {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+/* Home page styles */
+
+.home #main {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+.home h1 {
+	font-size: 2.5em;
+}
+
+.home h1 + h2 + p .number,
+.home .stacked p .number {
+	font-size: 2em;
+}
+
+.home h2 + p + p a {
+	font-size: 1.5em;
+	line-height: 1.4em;
+}
+
+.home .flex-caption h3 {
+	font-size: 2em;
+}
+
+/* List style */
+
+.home .content .box.one ul {
+	list-style: none;
+}
+
+/* Footer font size */
+
+#footer ul.footer_links {
+	font-size: 1.5em;
+}
+
+#footer .copyright {
+	font-size: 1.14em;
+}
+
+/* Footer font weight */
+
+#footer ul.footer_links,
+#footer .copyright a {
+	font-weight: bold;
+}
+
+/* Footer text decoration */
+
+#footer a:hover {
+	text-decoration: none !important;
+}
+
+#footer .copyright a {
+	text-decoration: none;
+}
+
+#footer .copyright a:hover {
+	text-decoration: underline;
+}
+
+/* Footer list style */
+
+#footer ul {
+	list-style: none;
+}
+
+/* About us page styles */
+
+.about,
+.about-us {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+.about-us h1 {
+	font-size: 2.5em;
+}
+
+.about-us img ~ h1 + p {
+	font-size: 1.4em;
+	line-height: 1.25em;
+}
+
+.about-us a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.about-us a.large {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Contact forms */
+
+/* .page-id-40 = contact-us */
+/* .page-id-3797 = get-a-quote */
+/* .page-id-3990 = contact-test-form */
+/* .page-id-4107 = Get a quote */
+
+.gform_wrapper {
+	font-size: 1.25em;
+}
+
+.gform_wrapper .gform_heading,
+.gform_wrapper .validation_error,
+.gform_wrapper .gform_footer {
+	text-align: center;
+}
+
+.gform_wrapper .gform_heading h3.gform_title {
+	font-size: 1.75em;
+}
+
+.gform_wrapper .gform_description {
+	line-height: 1.75em;
+}
+
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="password"],
+.gform_wrapper input[type="date"],
+.gform_wrapper input[type="datetime"],
+.gform_wrapper input[type="datetime-local"],
+.gform_wrapper input[type="month"],
+.gform_wrapper input[type="week"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="search"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="time"],
+.gform_wrapper input[type="url"],
+.gform_wrapper textarea,
+.gform_wrapper select {
+	font-family: inherit;
+	font-size: 1rem;
+}
+
+.gform_wrapper input {
+	font-size: inherit;
+}
+
+.gform_wrapper .gform_footer input.button[type="button"],
+.gform_wrapper .gform_footer input.button[type="submit"],
+.gform_wrapper .gform_footer input.button[type="button"],
+.gform_wrapper .gform_footer input.button[type="submit"] {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 100%;
+}
+
+/* Product page */
+
+.product-page h3 {
+	font-weight: bold;
+}
+
+.product-page ul {
+	list-style-type: square;
+}
+
+/* Standard and optional configurations */
+
+.std-conf table,
+.std-conf tr,
+.std-conf td,
+.opt-conf table,
+.opt-conf tr,
+.opt-conf td {
+	line-height: 1.25em;
+}
+
+.std-conf h3,
+.std-conf h4,
+.opt-conf h3,
+.opt-conf h4 {
+	font-weight: bold;
+}
+
+/* Single blog posts */
+
+#comments input[type="submit"] {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tags a {
+	font-size: 16px;
+}
+
+.shareaholic-canvas {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+/* ---------- Colors & Backgrounds ---------- */
+
+/* Kaast Orange: #ec6707; */
+/* Kaast Orange light: #ecb68f; */
+/* Kaast Orange very dark: #863a04; */
+/* Kaast Gray: #a7a6a6; */
+
+body {
+	background: #1f1f21 url('../../uploads/dark-saw.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: #333;
+}
+
+/* Dark gray */
+
+#info_bar .breadcrumb {
+	color: #222;
+}
+
+/* Highlight */
+
+::selection,
+::-moz-selection,
+*::selection,
+*::-moz-selection {
+  background-color: #ec6707;
+}
+
+/* Orange */
+
+.icon-holder,
+.head_text .arrow,
+.box:hover > .image-border-bottom,
+#navigation_bar > ul > li.current_page_item > a,
+#navigation_bar > ul > li.current-menu-ancestor > a,
+#navigation_bar > ul > li > a:hover, #navigation_bar > ul > li:hover > a,
+.flex-direction-nav li,
+.flex-direction-nav li a,
+.flex-control-nav li a,
+body .search-bar form input.searchsubmit,
+.paging li a:hover,
+.paging li a:hover,
+.paging li.active a,
+.post-navigations a,
+a.banner_button,
+a.banner_button:hover,
+.social_tip,
+.icon-overlay .icon,
+.blog_list .date,
+.rt-toggle ol li .toggle-number,
+.mobile-date,
+body span.onsale,
+.theme-default .nivo-directionNav a,
+.theme-default .nivo-caption .desc-background,
+.theme-default .nivo-controlNav a,
+a.button,
+.home .flex-caption .desc-background {
+  background-color: #ec6707;
+}
+
+#navigation ul {
+	background: #777;
+}
+
+/* Navigation dropdown menu */
+
+#navigation ul {
+	border-right: 1px solid white;
+}
+
+.home .flex-caption .desc-background {
+  background-image: none;
+} /* Slider caption background */
+
+a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.orange-text,
+.orange-bold,
+.kaast-orange,
+#navigation_bar > ul > li > a,
+.nav-number,
+#info_bar .breadcrumb a,
+.slider-carousel .flex-active-slide.title_nav h4,
+.search.search-results h5 a,
+table tbody .orange-model,
+/* Widgets */
+.single-portfolio .widget_text a,
+.single-portfolio .widget_text span {
+  color: #ec6707;
+}
+
+a:hover,
+.content h1 a:hover,
+.content h2 a:hover,
+.content h3 a:hover,
+.content h4 a:hover,
+.content h5 a:hover,
+.content h6 a:hover {
+	color: #863a04;
+}
+
+.orange {
+	background: #eee;
+	color: #cb5906;
+}
+
+.table-orange {
+	border: 1px solid #cb5906;
+}
+
+/* White */
+
+table tbody .orange-model,
+.carousel {
+	background: #fff;
+}
+
+#info_bar {
+	background: rgba(255,255,255,0.8);
+}
+
+a.button,
+a.button:hover,
+h3 a.button:hover,
+/* Footer link */
+#footer a {
+	color: #fff;
+}
+
+/* Image borders */
+
+img.right,
+img.left,
+figure img,
+figure.right img {
+	border: 1px solid #ec6707;
+}
+
+/* Buttons */
+
+a.button {
+	border: none;
+	box-shadow: none;
+  text-shadow: none;
+}
+
+a.button:hover {
+	background: #CD5600;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+a.read_more:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+a.button.secondary {
+	background: #444;
+}
+
+a.button.secondary:hover {
+	background: #666;
+}
+
+/* Ghost buttons */
+
+.ghost-button {
+	color: #ec6707;
+	border: 2px solid #ec6707;
+	background: #fff;
+}
+
+.ghost-button:hover {
+	color: #863a04;
+	border: 2px solid #863a04;
+	background: #fff;
+}
+
+/* Search results */
+
+.search.search-results h5 a:hover {
+	color: #863a04;
+}
+
+/* Home page */
+
+.home .featured_text a img {
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+/* Horizontal rules */
+
+hr.divider {
+	background: #f2f2f2;
+	border: none;
+}
+
+/* Yellow boxes */
+
+.yellow-box {
+	background: #f5e60b;
+	box-shadow: 2px 2px 4px #222;
+}
+
+.paging li a {
+	color: #222;
+}
+
+/* Footer */
+
+#footer {
+	color: #fff !important;
+	background: #ec6707 !important;
+	border-top: 10px solid rgba(255,255,255,0.1);
+}
+
+#footer li {
+	border: 0;
+}
+
+#footer a:hover {
+	color: #ffc79e !important;
+}
+
+#footer ul.footer_links {
+	border-bottom: 1px solid white !important;
+}
+
+#footer ul.footer_links a {	
+	color: #222 !important;
+}
+
+#footer ul.footer_links a:hover {	
+	color: #863a04 !important;
+}
+
+/* Home page styles */
+
+.home .content .box.one ul img {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.home .stacked img {
+	border: 1px solid #ec6707;
+}
+
+.home a {
+	color: #ec6707;
+}
+
+.home .stacked h2 a:hover {
+	color: #863a04 !important;
+}
+
+.home .stacked:not(:first-of-type) h2 a,
+.home .stacked:not(:first-of-type),
+.home a.button {
+	color: #fff;
+}
+
+.home .stacked:not(:first-of-type) h2 a:hover {
+	color: #ccc !important;
+}
+
+.home .stacked:not(:first-of-type) {
+	background: #666;
+}
+
+/* About us page styles */
+
+.about a.cta {
+	background: #EC6707;
+	color: #fff;
+}
+
+.about a.cta:hover {
+	background: #863a04;
+}
+
+.about-us a {
+	background: #ec6707;
+	color: white;
+}
+
+.about-us a:hover {
+	background: #863a04;
+}
+
+/* Contact forms */
+
+/* .page-id-40 = contact-us */
+/* .page-id-3797 = get-a-quote */
+/* .page-id-3990 = contact-test-form */
+/* .page-id-4107 = Get a quote */
+
+.gform_wrapper .gfield_required {
+	color: #ec6707;
+}
+
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="password"],
+.gform_wrapper input[type="date"],
+.gform_wrapper input[type="datetime"],
+.gform_wrapper input[type="datetime-local"],
+.gform_wrapper input[type="month"],
+.gform_wrapper input[type="week"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="search"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="time"],
+.gform_wrapper input[type="url"],
+.gform_wrapper textarea,
+.gform_wrapper select {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+	color: rgba(0, 0, 0, 0.75);
+	transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+
+.gform_wrapper input[type="text"]:focus,
+.gform_wrapper input[type="password"]:focus,
+.gform_wrapper input[type="date"]:focus,
+.gform_wrapper input[type="datetime"]:focus,
+.gform_wrapper input[type="datetime-local"]:focus,
+.gform_wrapper input[type="month"]:focus,
+.gform_wrapper input[type="week"]:focus,
+.gform_wrapper input[type="email"]:focus,
+.gform_wrapper input[type="number"]:focus,
+.gform_wrapper input[type="search"]:focus,
+.gform_wrapper input[type="tel"]:focus,
+.gform_wrapper input[type="time"]:focus,
+.gform_wrapper input[type="url"]:focus,
+.gform_wrapper textarea:focus {
+	background: none repeat scroll 0% 0% #FAFAFA;
+	border-color: #999;
+	box-shadow: 0px 0px 5px #999;
+	outline: medium none;
+}
+
+.gform_wrapper li.gfield_error input[type="text"],
+.gform_wrapper li.gfield_error input[type="url"],
+.gform_wrapper li.gfield_error input[type="email"],
+.gform_wrapper li.gfield_error input[type="tel"],
+.gform_wrapper li.gfield_error input[type="number"],
+.gform_wrapper li.gfield_error input[type="password"],
+.gform_wrapper li.gfield_error textarea {
+	border: 1px solid #ec6707;
+}
+
+.gform_wrapper div.validation_error,
+.gform_wrapper li.gfield_error,
+.gform_wrapper li.gfield_error .gfield_label {
+	color: #ec6707 !important;
+}
+
+.gform_wrapper .validation_message {
+	color: #222;
+}
+
+.gform_wrapper li.gfield.gfield_error,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	background-color: #eee !important;
+	border: 1px solid #ec6707 !important;
+	border-top: 1px solid #ec6707 !important;
+	border-bottom: 1px solid #ec6707 !important;
+}
+
+.gform_wrapper form input[type="button"],
+.gform_wrapper form input[type="submit"],
+.gform_wrapper form input[type="button"],
+.gform_wrapper form input[type="submit"] {
+	color: white;
+	border: none;
+	background: #ec6707;
+	box-shadow: none;
+  text-shadow: none;
+}
+
+/* Products page: do we still need this? */
+
+.product-page h3 a:hover {
+	color: #863a04;
+}
+
+.product-page ul a:hover {
+	color: #863a04;
+}
+
+.product-page .box {
+	background: #ddd;
+	border: 1px solid #ec6707 !important;
+	border-top: .5em solid #ec6707 !important;
+}
+
+.product-page .box .box {
+	border: none !important;
+}
+
+.product-page img:hover {
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* Standard and optional configurations */
+
+.std-conf {
+	background: #e1e1e1;
+}
+
+.opt-conf,
+.opt-conf table {
+	border: 1px solid #ec6707;
+	background: #fff;
+}
+
+.std-conf table,
+.std-conf tr,
+.std-conf td,
+.opt-conf tr,
+.opt-conf td {
+	border: none;
+}
+
+/* Single blog posts and blog page */
+
+.single-post #container,
+.page-id-1558 #container {
+	background: #ec6707;
+}
+
+.single-post #main,
+.page-id-1558 #main {
+	background: #fff;
+}
+
+#comments input[type="submit"] {
+	color: #fff;
+	border: none;
+	border-radius: 0;
+	background: #ec6707;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#comments input[type="submit"]:hover {
+	color: #fff;
+	background: #863a04;
+}
+
+
+
+
+
+
+/* ---------- Box Model: Dimensions, Padding & Margins ---------- */
+
+/* Navigation phone number */
+
+.nav-number {
+	display: block;
+	clear: both;
+	float: right;
+	margin: 12px;
+}
+
+/* Nagigation menu */
+
+#navigation ul {
+	width: 190px;
+}
+
+#navigation.menu ul ul {
+	left: 191px;
+}
+
+#navigation ul .menu-item-has-children > a::after {
+	content: " >";
+	font-weight: normal;
+	color: orange;
+}
+
+/* Slider */
+
+.slider_area {
+	margin: 0px auto;
+	top: 0;
+}
+
+/* Buttons */
+
+a.button {
+	padding: .5em 1em;
+	margin: 0;
+	border-radius: 0;
+}
+
+a.button.secondary {
+	margin: 1em 0 1em 1em;
+}
+
+a.button.secondary:first-of-type {
+	margin: 1em 0;
+}
+
+/* Ghost buttons */
+
+.ghost-button {
+	padding: 1em;
+	margin: 1em 0;
+}
+
+/* Horizontal Rules */
+
+hr.divider {
+	margin: 1.5em 0;
+	height: .25em;
+}
+
+/* Search results */
+
+.search.search-results h5 {
+	padding: 0;
+}
+
+/* Product tables */
+
+table tbody .orange-model {
+	padding: 0 3px;
+}
+
+thead tr:first-of-type th:first-of-type {
+	text-align: left;
+	padding-left: 4px;
+}
+
+/* Images */
+
+.imagemask img {
+	max-width: 500px;
+	margin-right: 6px;
+}
+
+img.right,
+figure.right {
+	float: right;
+}
+
+img.left {
+	float: left;
+}
+
+img.left.spec-sheet {
+	margin-right: 24px;
+	max-width: 160px;
+}
+
+/* Yellow boxes */
+
+.yellow-box {
+	padding: 12px;
+	border-radius: 12px;
+}
+
+/* Widgets */
+
+.single-portfolio .widget_text ul {
+	margin: 0 0 0 18px;
+}
+
+#main .sidebarwidth .sidebar {
+	/*top: 277px !important;*/
+}
+
+/* Footer */
+
+#footer {
+	padding: 48px 0;
+}
+
+.footer-logo {
+	margin-bottom: 1em;
+}
+
+#footer ul {
+	margin: 0;
+	border: 0;
+}
+
+#footer li {
+	padding: 0;
+	margin: 0 12px 0 0;
+}
+
+#footer p {
+	padding: 0;
+}
+
+#footer ul.footer_links {
+	padding: 0 0 12px;
+}
+
+#footer .copyright {
+	margin: 12px 0 0;
+}
+
+/* Home page styles */
+
+.home .content .box.one ul {
+	margin-left: 0;
+}
+
+.home .content .box.one ul img {
+	margin: 0 1em 0 0;
+}
+
+.home .stacked {
+	max-width: 49%;
+	vertical-align: top;
+}
+
+.home .stacked:not(:first-of-type) {
+	max-width: 45%;
+	margin: 0 0 0 1%;
+	padding: 1em 2%;
+}
+
+.home .stacked img {
+	max-width: 10%;
+}
+
+/* About us page styles */
+
+.about img {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.about a.cta {
+	padding: .25em 1em;
+	border-radius: 1em;
+	margin-right: .25em;
+}
+
+.about-us a {
+	padding: 0 6px;
+	border-radius: 4px;
+	margin: 0 4px;
+}
+
+.about-us a.large {
+	padding: .25em .5em;
+	margin: .5em 0;
+}
+
+.about-us img {
+	max-width: 160px !important;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.about-us img.hero {
+	max-width: 100% !important;
+	margin: 0 0 1.5em;
+	clear: both;
+}
+
+.about-us div:not(.box) {
+	margin: 2em 0 3em;
+}
+
+/* Product categories */
+
+.product_boxes .box {
+	padding: 16px;
+}
+
+/* Contact forms */
+
+/* .page-id-40 = contact-us */
+/* .page-id-3797 = get-a-quote */
+/* .page-id-3990 = contact-test-form */
+/* .page-id-4107 = Get a quote */
+
+.page-id-3797 .content > .box,
+.page-id-3990 .content > .box,
+.page-id-4107 .content > .box {
+	padding: 0 20px 20px;
+}
+
+.gform_wrapper {
+	max-width: 100%;
+}
+
+.gform_wrapper .gform_heading {
+	margin-bottom: 36px;
+}
+
+.gform_wrapper ul {
+	width: 100%;
+}
+
+.gform_wrapper li,
+.gform_wrapper ul li {
+	float: left;
+	width: 50% !important;
+	margin-bottom: 24px;
+	clear: none !important;
+}
+
+#gform_wrapper_11 li#field_11_8,
+#gform_wrapper_11 ul li#field_11_8,
+#gform_wrapper_12 li#field_12_8,
+#gform_wrapper_12 ul li#field_12_8 {
+	width: 98% !important;
+}
+
+#gform_wrapper_11 li#field_11_8 textarea,
+#gform_wrapper_12 li#field_12_8 textarea {
+	min-height: 130px;
+}
+
+.gform_wrapper li.gfield_error {
+	max-width: 46%;
+	margin-right: 2%;
+}
+
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="password"],
+.gform_wrapper input[type="date"],
+.gform_wrapper input[type="datetime"],
+.gform_wrapper input[type="datetime-local"],
+.gform_wrapper input[type="month"],
+.gform_wrapper input[type="week"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="search"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="time"],
+.gform_wrapper input[type="url"],
+.gform_wrapper textarea,
+.gform_wrapper select {
+	height: 3rem;
+	box-sizing: border-box;
+}
+
+.gform_wrapper .ginput_container {
+	max-width: 100%;
+}
+
+.gform_wrapper input.large {
+	max-width: 97%;
+}
+
+.gform_wrapper form input[type="button"],
+.gform_wrapper form input[type="submit"],
+.gform_wrapper form input[type="button"],
+.gform_wrapper form input[type="submit"] {
+	padding: .5em 1em;
+  margin: 1em auto;
+	border-radius: 0;
+}
+
+/* Products */
+
+.product-page .box {
+	padding: 1em 1em 0;
+	margin-bottom: 1em;
+	box-sizing: border-box;
+} /* This should probably be removed */
+
+.product-page .box .box {
+	padding: 0;
+}
+
+.single-products .shareaholic-share-buttons-container .shareaholic-share-buttons-wrapper ul.shareaholic-share-buttons {
+	margin: 0 !important;
+}
+
+/* Standard and optional configurations */
+
+.std-conf,
+.opt-conf {
+	padding: 1.5em 1.5em 0;
+	vertical-align: top;
+	float: left;
+}
+
+.std-conf {
+	width: -moz-calc(100% - 3em);
+	width: -webkit-calc(100% - 3em);
+	width: -o-calc(100% - 3em);
+	width: calc(100% - 3em);
+}
+
+.opt-conf {
+	width: -moz-calc(100% - 3em - 2px);
+	width: -webkit-calc(100% - 3em - 2px);
+	width: -o-calc(100% - 3em - 2px);
+	width: calc(100% - 3em - 2px);
+	margin: 1.5em 0 0;
+}
+
+.std-conf table,
+.std-conf tr,
+.std-conf td,
+.opt-conf table,
+.opt-conf tr,
+.opt-conf td {
+	padding: 4px;
+}
+
+tr.hltr {
+	padding: 4px!important;
+}
+
+/* Single blog posts */
+
+.single-post #main {
+	padding: 1em 0 0;
+}
+
+#comments input[type="submit"] {
+	padding: 1em;
+}
+
+.single-post #comments .text-boxes {
+	width: 100%;
+}
+
+/* Block quotes */
+
+.blockquote-left {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 50%;
+}
+
+
+
+
+
+
+/* ---------- Display properties ---------- */
+
+.hide,
+.page-id-3466 #info_bar,
+.page-id-3466 .head_text,
+/*.page-id-3883 #info_bar,*/ /* Specials page */
+.page-id-3883 .head_text,
+.page-id-3946 #info_bar,
+.page-id-3946 .head_text,
+.page-id-3938 #info_bar,
+.page-id-3938 .head_text,
+.page-id-4004 #info_bar,
+.page-id-4004 .head_text,
+.home #info_bar,
+.home .head_text,
+/* Space below header */
+:not(.category) div#container > div.space.margin-b30,
+/* Blog post featured images */
+.postid-4795 .featured_image,
+/* Portfolio and products navigation */
+.single-portfolio .post-navigations,
+.single-products .post-navigations,
+/* Footer */
+div.transparent-line.footer,
+/* Home page styles */
+.home .content #row_order_1 ~ .margin-b30:nth-of-type(2),
+.home #main div.space:nth-child(2),
+/* Single products: Top of the page */
+.single-products .content .space:first-child,
+/* Contact forms */
+.page-id-40 #info_bar,
+.page-id-40 .head_text,
+.page-id-40 div#container > div.space.margin-b30,
+/*.page-id-3797 #info_bar,*/ /* Get a quote page */
+.page-id-3797 .head_text,
+.page-id-3797 div#container > div.space.margin-b30,
+/*.page-id-3990 #info_bar,*/ /* Contact page */
+.page-id-3990 .head_text,
+.page-id-3990 div#container > div.space.margin-b30,
+/*.page-id-4107 #info_bar,*/ /* Get our catalog page */
+.page-id-4107 .head_text,
+.page-id-4107 div#container > div.space.margin-b30,
+/* Single blog post */
+#comments #form-allowed-tags,
+/* Shareaholic recommendations "what's this" link */
+.shareaholic-recommendations-footer {
+	display: none;
+}
+
+.single-products .shareaholic-recommendations-container {
+	display: none !important;
+}
+
+/* Footer */
+#footer li,
+/* Contact forms */
+.gform_wrapper li,
+.gform_wrapper ul li {
+	display: inline;
+}
+
+/* Products page */
+.products a.button {
+	display: inline !important;
+}
+
+/* Home page styles */
+.home .stacked,
+/* Ghost buttons */
+.ghost-button {
+	display: inline-block;
+}
+
+/* Contact forms */
+
+/* .page-id-40 = contact-us */
+/* .page-id-3797 = get-a-quote */
+/* .page-id-3990 = contact-test-form */
+/* .page-id-4107 = Get a quote */
+
+.gform_wrapper input[type="text"],
+.gform_wrapper input[type="password"],
+.gform_wrapper input[type="date"],
+.gform_wrapper input[type="datetime"],
+.gform_wrapper input[type="datetime-local"],
+.gform_wrapper input[type="month"],
+.gform_wrapper input[type="week"],
+.gform_wrapper input[type="email"],
+.gform_wrapper input[type="number"],
+.gform_wrapper input[type="search"],
+.gform_wrapper input[type="tel"],
+.gform_wrapper input[type="time"],
+.gform_wrapper input[type="url"],
+.gform_wrapper textarea,
+.gform_wrapper select {
+	display: block;
+}
+
+
+
+
+
+
+
+/* ---------- Products page ---------- */
+
+/* Typography */
+
+.products {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.products .head_text + div > h1 {
+	font-size: 3em;
+}
+
+.products input#s {
+	font-size: 0.9em !important;
+}
+
+.products a.button {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.products label,
+.products h1,
+.products a.button {
+	font-weight: bold;
+}
+
+.products li {
+	list-style: none;
+}
+
+.products a {
+	text-decoration: none;
+}
+
+/* Colors, backgrounds and borders */
+
+.products label {
+	color: #333;
+}
+
+.products input#s {
+	color: #333 !important;
+}
+
+.products input#s,
+.products table {
+	background: #f6f6f6;
+}
+
+.products td:hover {
+	background: #fff;
+}
+
+.products a.button {
+	background: #ec6707;
+}
+
+.products a.button,
+.products a.button:hover {
+	color: #fff;
+}
+
+.products a {
+	color: #ec6707;
+}
+
+.products a:hover,
+.products h1 a:hover,
+.products h3 a:hover {
+	color: #863a04;
+}
+
+.products li a {
+	color: #000;
+}
+
+.products table {
+	border-top: 1px solid #ecb68f;
+	border-right: 1px solid #ecb68f;
+}
+
+.products td {
+	border-bottom: 1px solid #ecb68f;
+	border-left: 1px solid #ecb68f;
+}
+
+.products table table,
+.products table table td {
+	border: none;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.products .search-bar {
+	float: left;
+}
+
+.products input#s {
+	width: 275px !important;
+}
+
+.products table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.products td {
+	vertical-align: top;
+	padding: 18px;
+}
+
+.products table table {
+	margin-bottom: 0;
+}
+
+.products table table td {
+	padding: 0;
+}
+
+.products h1 {
+	padding: 0;
+}
+
+.products table ~ div > h1 {
+	margin: 0 0 14px;
+}
+
+.products h3 {
+	padding: 0;
+	margin: 4px 0 0;
+}
+
+.products ul {
+	margin: 0;
+}
+
+.products a.button {
+	border-radius: 0;
+	padding: 12px 24px;
+	margin: 12px 0;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ---------- Product categories: Saws, Band saws, Lathes, profile rolls and plate rolls ---------- */
+
+/* Typography */
+
+.tax-product_categories.term-cutting-systems .head_text h2,
+.tax-product_categories.term-lathes .head_text h2,
+.tax-product_categories.term-cnc-lathes .head_text h2,
+.tax-product_categories.term-manual-lathes .head_text h2,
+.tax-product_categories.term-milling-machines .head_text h2,
+.tax-product_categories.term-cnc-milling-machines .head_text h2,
+.tax-product_categories.term-manual-milling-machines .head_text h2,
+.tax-product_categories.term-drilling-boring-machines .head_text h2,
+.tax-product_categories.term-cnc-drilling-boring .head_text h2,
+.tax-product_categories.term-manual-drilling-boring .head_text h2,
+.tax-product_categories.term-grinding-machines .head_text h2,
+.tax-product_categories.term-saws .head_text h2,
+.tax-product_categories.term-band-saws .head_text h2,
+.tax-product_categories.term-angle-ring-profile-rolls .head_text h2,
+.tax-product_categories.term-plate-rolling-machines .head_text h2,
+.tax-product_categories.term-fabrication-equipment .head_text h2 {
+	font-size: 2.5em;
+}
+
+.tax-product_categories.term-cutting-systems .content > .box:nth-child(2),
+.tax-product_categories.term-lathes .content > .box:nth-child(2),
+.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2),
+.tax-product_categories.term-manual-lathes .content > .box:nth-child(2),
+.tax-product_categories.term-milling-machines .content > .box:nth-child(2),
+.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2),
+.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2),
+.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2),
+.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2),
+.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2),
+.tax-product_categories.term-grinding-machines .content > .box:nth-child(2),
+.tax-product_categories.term-saws .content > .box:nth-child(2),
+.tax-product_categories.term-band-saws .content > .box:nth-child(2),
+.tax-product_categories.term-angle-ring-profile-rolls .content > .box:nth-child(2),
+.tax-product_categories.term-plate-rolling-machines .content > .box:nth-child(2),
+.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+.tax-product_categories.term-cutting-systems .content > .box:nth-child(2) a,
+.tax-product_categories.term-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2) a,
+.tax-product_categories.term-grinding-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-saws .content > .box:nth-child(2) a,
+.tax-product_categories.term-band-saws .content > .box:nth-child(2) a,
+.tax-product_categories.term-angle-ring-profile-rolls .content > .box:nth-child(2) a,
+.tax-product_categories.term-plate-rolling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) a {
+	text-decoration: none;
+}
+
+/* Colors, backgrounds and borders */
+
+.product_boxes .box {
+	border: 4px solid #ec6707;
+}
+
+.tax-product_categories.term-cutting-systems .head_text h2,
+.tax-product_categories.term-lathes .head_text h2,
+.tax-product_categories.term-cnc-lathes .head_text h2,
+.tax-product_categories.term-manual-lathes .head_text h2,
+.tax-product_categories.term-milling-machines .head_text h2,
+.tax-product_categories.term-cnc-milling-machines .head_text h2,
+.tax-product_categories.term-manual-milling-machines .head_text h2,
+.tax-product_categories.term-drilling-boring-machines .head_text h2,
+.tax-product_categories.term-cnc-drilling-boring .head_text h2,
+.tax-product_categories.term-manual-drilling-boring .head_text h2,
+.tax-product_categories.term-grinding-machines .head_text h2,
+.tax-product_categories.term-saws .head_text h2,
+.tax-product_categories.term-band-saws .head_text h2,
+.tax-product_categories.term-angle-ring-profile-rolls .head_text h2,
+.tax-product_categories.term-plate-rolling-machines .head_text h2,
+.tax-product_categories.term-fabrication-equipment .head_text h2 {
+	color: #000;
+}
+
+.tax-product_categories.term-cutting-systems .content > .box:nth-child(2) a,
+.tax-product_categories.term-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-lathes .content > .box:nth-child(2) a,
+.tax-product_categories.term-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2) a,
+.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2) a,
+.tax-product_categories.term-grinding-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-saws .content > .box:nth-child(2) a,
+.tax-product_categories.term-band-saws .content > .box:nth-child(2) a,
+.tax-product_categories.term-angle-ring-profile-rolls .content > .box:nth-child(2) a,
+.tax-product_categories.term-plate-rolling-machines .content > .box:nth-child(2) a,
+.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) a {
+	color: #ec6707;
+	background: none;
+}
+
+.tax-product_categories.term-cutting-systems .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-lathes .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-manual-lathes .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-milling-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-grinding-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-saws .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-band-saws .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-angle-ring-profile-rolls .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-plate-rolling-machines .content > .box:nth-child(2) a:hover,
+.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) a:hover {
+	color: #b93505;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.tax-product_categories.term-cutting-systems .content > .box:first-child,
+.tax-product_categories.term-lathes .content > .box:first-child,
+.tax-product_categories.term-cnc-lathes .content > .box:first-child,
+.tax-product_categories.term-manual-lathes .content > .box:first-child,
+.tax-product_categories.term-milling-machines .content > .box:first-child,
+.tax-product_categories.term-cnc-milling-machines .content > .box:first-child,
+.tax-product_categories.term-manual-milling-machines .content > .box:first-child,
+.tax-product_categories.term-drilling-boring-machines .content > .box:first-child,
+.tax-product_categories.term-cnc-drilling-boring .content > .box:first-child,
+.tax-product_categories.term-manual-drilling-boring .content > .box:first-child,
+.tax-product_categories.term-grinding-machines .content > .box:first-child,
+.tax-product_categories.term-saws .content > .box:first-child,
+.tax-product_categories.term-band-saws .content > .box:first-child,
+.tax-product_categories.term-angle-ring-profile-rolls .content > .box:first-child,
+.tax-product_categories.term-plate-rolling-machines .content > .box:first-child,
+.tax-product_categories.term-fabrication-equipment .content > .box:first-child {
+	margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+/* ---------- Specials page styles ---------- */
+
+/* Typography */
+
+.specials-2,
+.specials-2 p,
+.specials-2 h1,
+.specials-2 h2,
+.specials-2 h3,
+.specials-2 h4,
+.specials-2 h5,
+.specials-2 h6 {
+	text-align: center;
+}
+
+.specials-2 h1 {
+	font-size: 3em !important;
+	font-weight: bold !important;
+}
+
+.specials-2 h3 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.specials-2 h4 {
+	font-size: 2em !important;
+}
+
+.specials-2 th {
+	font-size: 2.25em;
+	font-weight: bold;
+}
+
+.specials-2 td {
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.specials-2 td.ad {
+	vertical-align: middle;
+}
+
+.specials-2 a {
+	text-decoration: none;
+}
+
+.specials-2 a.button {
+	font-size: 2em;
+}
+
+.specials-2 li {
+	list-style: none;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+.specials-2 small,
+.specials-2 li small {
+	font-size: 14.5px !important;
+	line-height: 1 !important;
+}
+
+.specials-2 ul li:last-child a,
+.specials-2 ol a {
+	font-weight: bold;
+}
+
+/* Colors, backgrounds and borders */
+
+.specials-2 table {
+	border: 1px solid #ec6707;
+}
+
+.specials-2 tr {
+	border-top: 1px solid #ec6707;
+	border-bottom: 1px solid #ec6707;
+}
+
+.specials-2 th {
+	background: #ec6707;
+	color: white;
+	border: none;
+}
+
+.specials-2 td {
+	border: none;
+	border-right: 1px solid #ec6707;
+	border-left: 1px solid #ec6707;
+}
+
+.specials-2 a {
+	color: #000;
+}
+
+.specials-2 a:hover {
+	color: #863a04 !important;
+}
+
+.specials-2 a.button {
+	color: white;
+	background: #ec6707;
+}
+
+.specials-2 a.button:hover {
+	color: white !important;
+	background: #863a04;
+}
+
+.specials-2 li {
+	color: #222;
+}
+
+.specials-2 small,
+.specials-2 li small {
+	color: #666;
+}
+
+.specials-2 ul li:last-child a,
+.specials-2 ol a {
+	color: #ec6707;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.specials-2 h3 {
+	margin-top: 48px;
+	padding-top: 24px;
+	clear: both;
+}
+
+.specials-2 table {
+	table-layout: fixed;
+	margin: 20px 0;
+}
+
+.specials-2 td {
+	width: 25%;
+}
+
+.specials-2 table img {
+	width: 100%;
+}
+
+.specials-2 table img.scale-down {
+	max-width: 60% !important;
+}
+
+.specials-2 table img.banner-vertical {
+	width: 160px;
+	height: 600px;
+}
+
+.specials-2 a.button {
+	border-radius: 0;
+	padding: 12px 16px;
+}
+
+.specials-2 ul {
+	margin: 0;
+}
+
+.specials-2 li {
+	margin: 0;
+}
+
+.specials-2 td p {
+	margin: 4px 0;
+	padding: 0;
+}
+
+/* Display settings */
+
+.specials-2 h3 {
+	display: block;
+}
+
+
+
+
+
+/* ---------- Product hacks ---------- */
+
+/* C-Turn CNC Lathe */
+
+/* Colors, borders and backgrounds */
+
+.postid-3950 .pane img {
+	border: 1px solid orange;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.postid-3950 .pane .boxes .box {
+	padding: 20px;
+}
+
+.postid-3950 .pane .boxes .box.first {
+	padding-left: 0;
+}
+
+.postid-3950 .pane .boxes .box.last {
+	padding-right: 0;
+}
+
+.postid-1700 div.carousel.box-shadow,
+.postid-1758 div.carousel.box-shadow,
+.postid-1930 div.carousel.box-shadow,
+.postid-1939 div.carousel.box-shadow,
+.postid-1944 div.carousel.box-shadow,
+.postid-1969 div.carousel.box-shadow,
+.postid-1971 div.carousel.box-shadow,
+.postid-1975 div.carousel.box-shadow,
+.postid-1977 div.carousel.box-shadow,
+.postid-1980 div.carousel.box-shadow,
+.postid-1985 div.carousel.box-shadow,
+.postid-1997 div.carousel.box-shadow,
+.postid-3266 div.carousel.box-shadow {
+	height: auto!important;
+}
+
+/* Display properties */
+
+.postid-3950 div.pane div a[href=""] {
+	display: none;
+}
+
+
+
+
+
+
+/* ---------- Products ---------- */
+
+/* Typography */
+
+.head_text h2.product,
+ul.tabs a {
+	font-weight: bold;
+}
+
+.head_text h2.product {
+	line-height: 1.4em;
+}
+
+/* Colors, borders and backgrounds */
+
+.head_text h2.product {
+	color: #555;
+}
+
+h4.product-note {
+	border: 1px solid #ec6707;
+}
+
+ul.tabs a,
+ul.tabs a.current,
+ul.tabs a.current:hover,
+ul.tabs a:hover {
+	color: #fff;
+}
+
+ul.tabs a {
+	background: #ec6707;
+}
+
+ul.tabs a.current,
+ul.tabs a.current:hover {
+	background: #333;
+	border-color: #ec6707;
+}
+
+ul.tabs a:hover {
+	border-color: #333;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.single-products:not(.postid-3950) .box:first-child {
+	margin: 0 !important;
+}
+
+h4.product-note {
+	padding: 6px;
+	border-radius: 12px;
+	margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+/* ---------- Technical Specifications ---------- */
+
+/* Typography */
+
+.single-products table {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.single-products tr:not(.specs) th,
+.single-products .black {
+	font-weight: bold;
+}
+
+.single-products tr:not(.specs) th {
+	font-size: 12px;
+}
+
+.single-products tr.specs th {
+	font-size: 10px;
+	font-weight: normal !important;
+}
+
+.single-products td,
+.single-products th {
+	text-align: center;
+}
+
+.single-products .left {
+	text-align: left;
+}
+
+/* Colors, borders and backgrounds */
+
+.single-products table {
+	background: #fff;
+	color: #000;
+}
+
+.single-products table,
+.single-products th,
+.single-products td,
+.single-products .footer,
+.single-products .footer td,
+.single-products .footer td.gray {
+	border: none;
+}
+
+.single-products th,
+.single-products td {
+	border-collapse: collapse;
+}
+
+.single-products th {
+	background: #444;
+	color: #fff;
+}
+
+.single-products td {
+	border-left: 1px solid orange;
+}
+
+.single-products td:last-child {
+	border-right: 1px solid orange;
+}
+
+.single-products .usa {
+	color: #787878;
+}
+
+.single-products .gray {
+	background: #ccc;
+}
+
+.single-products .footer,
+.single-products .footer td {
+	background: #ddd;
+}
+
+.single-products .footer .gray {
+	background: #aaa;
+}
+
+.single-products .footer .black {
+	color: #fff;
+	background: #444;
+	border-radius: 4px;
+}
+
+.single-products table.footer-border,
+.single-products td.footer-border,
+.single-products table.border-bottom,
+.single-products td.border-bottom {
+	border-bottom: 1px solid orange;
+}
+
+/* Box Sizing: Dimensions, padding and margins */
+
+.single-products table {
+	width: 100%;
+	margin: 0 0 1em;
+}
+
+.single-products th,
+.single-products td {
+	padding: 0;
+}
+
+.single-products td.left {
+	padding-left: .33em;
+}
+
+.single-products .footer .black {
+	padding: 0 6px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------- Ironworkers ---------- */
+
+/* Typography */
+
+.wk-stat table th,
+.wk-stat table tr td:first-child,
+.wk-stat table tr td:nth-child(3) {
+	font-weight: bold;
+}
+
+.wk-stat table th {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.wk-stat table tr td:first-child,
+.wk-stat table tr td:nth-child(3) {
+	white-space: nowrap;
+}
+
+.wk-stat ul {
+	list-style: none !important;
+	text-align: center;
+}
+
+/* Colors, borders and backgrounds */
+
+.wk-stat table {
+	border: 1px solid #ec6707;
+}
+
+.wk-stat table th {
+	color: #fff;
+	background: #000;
+	border-left: 1px solid #ccc;
+}
+
+.wk-stat table th:first-child {
+	border-left: none;
+}
+
+.wk-stat table td {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.wk-stat table tr td:first-child {
+	border-left: none;
+}
+
+.wk-stat table tr td:first-child,
+.wk-stat table tr td:nth-child(3) {
+	color: #ec6707;
+}
+
+.wk-stat table tr:last-child td {
+	border-bottom: none;
+}
+
+.wk-stat ul img {
+	border: 1px solid #ec6707;
+}
+
+/* Box model: Dimensions, padding and margins */
+
+.wk-stat table {
+	margin-top: 24px;
+}
+
+.wk-stat table th {
+	padding: 8px;
+}
+
+.wk-stat table td {
+	padding: 2px 10px;
+	margin: 2px;
+	vertical-align: top;
+}
+
+.wk-stat table td p {
+	padding: 0 0 6px 0;
+}
+
+.wk-stat img {
+	max-width: 100%;
+}
+
+.wk-stat ul {
+	margin: 12px 0 0;
+}
+
+.wk-stat li:not(:first-child) {
+	margin-left: 12px;
+}
+
+.wk-stat ul img {
+	margin: 0;
+	padding: 0;
+	width: 135px;
+}
+
+/* Display properties */
+
+.wk-stat li {
+	display: inline !important;
+}
+
+
+
+
+
+
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* ----- Mobile horizontal and down ----- */
+
+@media only screen and (max-width: 767px) {
+
+	/* ---------- Typography ---------- */
+
+	.home h1 {
+		font-size: 2em;
+	}
+
+	.nav-number {
+		text-align: center;
+	}
+
+	/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+	.home .stacked {
+		max-width: 100%;
+	}
+
+	.home .stacked:not(:first-of-type) {
+		max-width: 90%;
+		padding: 4% 4% 0;
+	}
+
+	.nav-number {
+		float: none;
+	}
+
+	.responsive .box .box {
+		padding: 1em;
+	}
+
+	/* Block quotes left floats */
+
+	.blockquote-left {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+}
+
+/* ----- Mobile horizontal and up ----- */
+
+@media only screen and (min-width: 480px) {
+
+	/* Box model: dimensions, padding and margins */
+
+	.std-conf {
+		width: -moz-calc(50% - 3em - .75em);
+		width: -webkit-calc(50% - 3em - .75em);
+		width: -o-calc(50% - 3em - .75em);
+		width: calc(50% - 3em - .75em);
+	}
+
+	.opt-conf {
+		width: -moz-calc(50% - 3em - .75em - 2px);
+		width: -webkit-calc(50% - 3em - .75em - 2px);
+		width: -o-calc(50% - 3em - .75em - 2px);
+		width: calc(50% - 3em - .75em - 2px);
+	}
+
+	.std-conf + .opt-conf {
+		margin: 0 0 0 1.5em;
+	}
+
+}
+
+/* Tablet (Portrait) 768px */
+@media only screen and (min-width: 768px) {
+
+	/* ---------- Colors, borders and backgrounds ---------- */
+
+	/* Category page */
+
+	/* Cutting */
+	.tax-product_categories.term-cutting-systems .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/plasmasonic-3020-1.jpg');
+		background-size: 50%;
+		background-position: 110% 120%;
+		background-repeat: no-repeat;
+	}
+
+	/* Turning */
+	.tax-product_categories.term-lathes .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/a-turn-sym1.jpg');
+		background-size: 50%;
+		background-position: 120% 80%;
+		background-repeat: no-repeat;
+	}
+
+	/* CNC and Manual Lathes */
+	.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2),
+	.tax-product_categories.term-manual-lathes .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/a-turn-sym1.jpg');
+		background-size: 60%;
+		background-position: 125% 20%;
+		background-repeat: no-repeat;
+	}
+
+	/* Milling */
+	.tax-product_categories.term-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 70%;
+		background-position: 125% -10%;
+		background-repeat: no-repeat;
+	}
+
+	/* CNC Milling */
+	.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 60%;
+		background-position: 110% 80%;
+		background-repeat: no-repeat;
+	}
+
+	/* Manual Milling */
+	.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 50%;
+		background-position: 107% 80%;
+		background-repeat: no-repeat;
+	}
+
+	/* Drilling/Boring */
+	.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/hbw_f_2photo_deg.jpg');
+		background-size: 60%;
+		background-position: 120% 72%;
+		background-repeat: no-repeat;
+	}
+
+	/* CNC and Manual Drilling/Boring */
+	.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2),
+	.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/hbw_f_2photo_deg.jpg');
+		background-size: 60%;
+		background-position: 107% 55%;
+		background-repeat: no-repeat;
+	}
+
+	/* Grinding */
+	.tax-product_categories.term-grinding-machines .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/cr-grind-27160.jpg');
+		background-size: 50%;
+		background-position: 115% 115%;
+		background-repeat: no-repeat;
+	}
+
+	/* Sawing and Band saws */
+	.tax-product_categories.term-saws .content > .box:nth-child(2),
+	.tax-product_categories.term-band-saws .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/hbs-440-dg1.jpg');
+		background-size: 70%;
+		background-position: 135% 70%;
+		background-repeat: no-repeat;
+	}
+
+	/* Fabricating */
+	.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/rbd_15-9photo_deg.jpg');
+		background-size: 65%;
+		background-position: 135% 40%;
+		background-repeat: no-repeat;
+	}
+
+}
+
+/* Desktop 960px */
+@media only screen and (min-width: 960px) {
+
+	/* ---------- Colors, borders and backgrounds ---------- */
+
+	/* Category pages */
+
+	/* Cutting */
+	.tax-product_categories.term-cutting-systems .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/plasmasonic-3020-1.jpg');
+		background-size: 60%;
+		background-position: 110% 70%;
+		background-repeat: no-repeat;
+	}
+	
+	/* Turning */
+	.tax-product_categories.term-lathes .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/a-turn-sym1.jpg');
+		background-size: 60%;
+		background-position: 124% 0%;
+		background-repeat: no-repeat;
+	}
+	
+	/* CNC Lathes */
+	.tax-product_categories.term-cnc-lathes .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/a-turn-sym1.jpg');
+		background-size: 60%;
+		background-position: 126% 30%;
+		background-repeat: no-repeat;
+	}
+	
+	/* Manual Lathes */
+	.tax-product_categories.term-manual-lathes .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/a-turn-sym1.jpg');
+		background-size: 50%;
+		background-position: 95% 23%;
+		background-repeat: no-repeat;
+	}
+	
+	/* Milling */
+	.tax-product_categories.term-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 60%;
+		background-position: 110% 0%;
+		background-repeat: no-repeat;
+	}
+	
+	/* CNC Mills */
+	.tax-product_categories.term-cnc-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 50%;
+		background-position: 107% 70%;
+		background-repeat: no-repeat;
+	}
+	
+	/* Manual Mills */
+	.tax-product_categories.term-manual-milling-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/V-Mill-2200-CNC.jpg');
+		background-size: 50%;
+		background-position: 107% 51%;
+		background-repeat: no-repeat;
+	}
+
+	/* Drilling/Boring */
+	.tax-product_categories.term-drilling-boring-machines .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/hbw_f_2photo_deg.jpg');
+		background-size: 60%;
+		background-position: 100% 52%;
+		background-repeat: no-repeat;
+	}
+
+	/* CNC and Manual Drilling/Boring */
+	.tax-product_categories.term-cnc-drilling-boring .content > .box:nth-child(2),
+	.tax-product_categories.term-manual-drilling-boring .content > .box:nth-child(2) {
+		background: white url('http://www.kaast-usa.com/wp-content/uploads/hbw_f_2photo_deg.jpg');
+		background-size: 50%;
+		background-position: 105% 46%;
+		background-repeat: no-repeat;
+	}
+
+	/* Grinding */
+	.tax-product_categories.term-grinding-machines .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/cr-grind-27160.jpg');
+		background-size: 65%;
+		background-position: 127% 61%;
+		background-repeat: no-repeat;
+	}
+
+	/* Sawing and Band Saws */
+	.tax-product_categories.term-saws .content > .box:nth-child(2),
+	.tax-product_categories.term-band-saws .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/hbs-440-dg1.jpg');
+		background-size: 70%;
+		background-position: 140% 20%;
+		background-repeat: no-repeat;
+	}
+
+	/* Fabricating */
+	.tax-product_categories.term-fabrication-equipment .content > .box:nth-child(2) {
+		background: white url('http://kaast-usa.com/wp-content/uploads/rbd_15-9photo_deg.jpg');
+		background-size: 60%;
+		background-position: 115% 70%;
+		background-repeat: no-repeat;
+	}
+
+}
+
+
+
+/* -------------------- About page -------------------- */
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+.new-about {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.new-about h2,
+.new-about h3 {
+	font-size: 21px;
+}
+
+.button.ghost {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Font style and weight */
+
+.new-about h1,
+.new-about h2,
+.new-about h3,
+.new-about h4,
+.new-about h5,
+.new-about h6 {
+	font-weight: bold;
+}
+
+/* Text alignment */
+
+.new-about {
+	text-align: center;
+}
+
+.service-button-container {
+	text-align: center;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Warm dark gray */
+
+.new-about-hero,
+.service-button-container {
+	background: #352C26;
+}
+
+.new-about h2,
+.new-about h3 {
+	color: #352C26;
+}
+
+/* Darker orange */
+
+.button.ghost,
+.button.ghost:hover {
+	color: #984000;
+}
+
+/* KAAST orange */
+
+.button.ghost {
+	border: 2px solid #ec6707;
+	border-radius: 10px;
+}
+
+/* Lighter orange */
+
+.new-about-hero h2,
+.service-button-container h3 {
+	color: #FF8D3A;
+}
+
+/* Lightest orange */
+
+.button.ghost:hover {
+	background: #FFE2CD;
+}
+
+/* White */
+
+.new-about-hero {
+	color: #fff;
+}
+
+.button.ghost {
+	background: #fff;
+}
+
+/* Background images */
+
+.new-about-hero-column.first {
+	background: url('http://kaast-usa.com/wp-content/uploads/why.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Dimensions */
+
+.new-about-hero {
+	height: 462px;
+}
+
+.new-about-hero-column.first {
+	height: 200px;
+}
+
+.new-about-hero-column img {
+	width: 100%;
+}
+
+/* Padding */
+
+.new-about-hero-column.last {
+	padding: 0 1em 1em;
+}
+
+.service-button-container {
+	padding: 1em 1em 2em;
+}
+
+.service-button-container p {
+	padding: 0;
+}
+
+.button.ghost {
+  padding: .5em 1em;
+}
+
+/* Margins */
+
+.new-about-hero {
+	margin: -20px -20px 1em;
+}
+
+.new-about-hero-column.first {
+	margin: 0 0 .75em;
+}
+
+.service-button-container {
+	margin: .5em -20px 2em;
+}
+
+/* ---------- Display properties ---------- */
+
+.page-id-862 .head_text {
+	display: none;
+}
+
+/* ---------- Media queries ---------- */
+
+/* ---------- Mobile horizontal ---------- */
+@media screen and (min-width: 480px) {
+
+	.new-about-hero {
+		height: 454px;
+	}
+
+	.new-about h2,
+	.new-about h3 {
+		font-size: 24px;
+	}
+
+	.new-about-hero-column.first {
+		height: 250px;
+	}
+
+}
+
+/* ---------- Tablet ---------- */
+@media screen and (min-width: 768px) {
+
+	.new-about {
+		text-align: left;
+	}
+
+	.new-about-hero {
+		height: 270px;
+	  margin: -20px -20px 3em;
+	}
+
+	.new-about h2,
+	.new-about h3 {
+		font-size: 26px;
+	}
+
+	.new-about-hero-column {
+		display: inline-block;
+		float: left;
+		width: calc(50% - 2em);
+	}
+
+	.new-about-hero-column.first {
+		margin: 0;
+		height: 100%;
+	}
+
+	.new-about-hero-column.last {
+		padding: 2em;
+	}
+
+	.new-about-image {
+		float: left;
+		margin: 0 2em 0 0;
+		width: 270px;
+	}
+
+	.service-button-container {
+		padding: 2em 1em;
+		margin: 2em -20px 4em;
+	}
+
+	.service-button-container h3,
+	.service-button-container p {
+		display: inline;
+	}
+
+	.service-button-container h3 {
+		margin: 0 .25em 0 0;
+		padding: 0;
+	}
+
+}
+
+/* ---------- Desktop ---------- */
+@media screen and (min-width: 960px) {
+
+	.new-about-hero {
+		height: 290px;
+	  margin: -20px -20px 4em;
+	}
+
+	.new-about h2,
+	.new-about h3 {
+	  font-size: 34px;
+	  line-height: 1.2;
+	}
+
+	.new-about-hero h2 {
+		margin: 0 0 6px;
+	}
+
+	.new-about-image {
+		width: 330px;
+	}
+
+	.service-button-container {
+		margin: 4em -20px;
+	}
+
+	.service-button-container h3 {
+		padding: .25em 0 0;
+	}
+
+	.new-about-financing-margin {
+		margin-bottom: 3em;
+	}
+
+}
+
+
+
+/* -------------------- Careers page -------------------- */
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+.careers table td {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Text alignment */
+
+.careers table td {
+	text-align: center;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Medium gray */
+
+.careers table td {
+	background: #666;
+}
+
+/* Light gray */
+
+.careers .available-jobs {
+	background: #ccc;
+}
+
+/* White */
+
+.careers table td {
+	color: #fff;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Dimensions */
+
+.careers table {
+	width: 100%;
+}
+
+.careers table td {
+	width: 93%;
+}
+
+.careers-hero {
+	height: 89px;
+}
+
+/* Padding */
+
+.careers .available-jobs {
+	padding: 1em;
+}
+
+.careers table td {
+	padding: 10px;
+}
+
+/* Margins */
+
+.careers .available-jobs {
+	margin-bottom: 1em;
+}
+
+.careers-hero {
+	margin: -20px -20px 30px;
+}
+
+.careers table td {
+	margin: 0;
+}
+
+/* ---------- Display properties ---------- */
+
+.page-id-5645 .head_text {
+	display: none;
+}
+
+.careers table td {
+	display: block;
+}
+
+/* ---------- Media queries ---------- */
+
+/* Mobile horizontal */
+@media screen and (min-width: 480px) {
+
+	.careers table td {
+		width: 95%;
+	}
+
+	.careers-hero {
+		height: 134px;
+	}
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+	.careers table td {
+		display: table-cell;
+		width: auto;
+	}
+
+	.careers .available-jobs {
+		float: right;
+		margin-left: 2em;
+		padding: 2em;
+	}
+
+	.careers-hero {
+		height: 226px;
+	}
+
+}
+
+/* Desktop */
+@media screen and (min-width: 960px) {
+
+	.careers-hero {
+		height: 300px;
+	}
+
+	.careers-job-title {
+		display: inline-block;
+	}
+
+}
+
+
+
+/* -------------------- Testimonials page -------------------- */
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+.category-testimonials p,
+.testimonials {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.testimonials h2 {
+	font-size: 34px;
+	line-height: 1.3;
+}
+
+/* Font styles and weight */
+
+.testimonials h2 {
+	font-weight: bold;
+}
+
+/* Text alignment */
+
+.testimonials {
+	text-align: center;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Warm dark gray */
+
+.testimonials {
+	background: #352C26;
+}
+
+/* Slightly darker oranges */
+
+a.read_more {
+	color: #D75B02;
+}
+
+a.read_more:hover {
+	color: #994000;
+}
+
+/* Slightly lighter orange */
+
+.testimonials h2 {
+	color: #FF8D3A;
+}
+
+/* White */
+
+.testimonials {
+	color: #fff;
+}
+
+.page-id-5797 .content {
+	background: #fff;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Padding */
+
+.testimonials {
+	padding: 2em 1em;
+}
+
+.page-id-5797 .content {
+	padding: 0 0 2em;
+}
+
+/* Margins */
+
+.testimonials {
+	margin: -20px;
+}
+
+/* ---------- Media queries ---------- */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	.testimonials {
+		padding: 3em 10em;
+	}
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	.testimonials {
+		padding: 4em;
+	}
+
+}
+
+
+
+/* -------------------- Blog page -------------------- */
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+.blogpage {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.blogpage h2 {
+	font-size: 34px;
+	line-height: 1.3;
+}
+
+/* Font styles and weight */
+
+.blogpage h2 {
+	font-weight: bold;
+}
+
+/* Text alignment */
+
+.blogpage {
+	text-align: center;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Warm dark gray */
+
+.blogpage {
+	background: #352C26;
+}
+
+/* Slightly lighter orange */
+
+.blogpage h2 {
+	color: #FF8D3A;
+}
+
+/* White */
+
+.blogpage {
+	color: #fff;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Padding */
+
+.blogpage {
+	padding: 2em 1em;
+}
+
+.page-id-1558 .content {
+	padding: 0 0 2em;
+}
+
+/* Margins */
+
+.blogpage {
+	margin: -20px;
+}
+
+/* ---------- Media queries ---------- */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	.blogpage {
+		padding: 3em 2em;
+	}
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	.blogpage {
+		padding: 4em;
+	}
+
+}
+
+
+
+/* -------------------- 2015 Home page -------------------- */
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+#container.container-2015homepage,
+.home #main.main-2015homepage,
+.container-2015homepage h6,
+.footer-2015homepage {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.content-wrapper-2015homepage #navigation_bar > ul > li > a,
+.content-wrapper-2015homepage #navigation > li {
+  font-size: 16px;
+}
+
+.container-2015homepage h3 {
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+/* Font styles and weight */
+
+.container-2015homepage h1,
+.container-2015homepage h2,
+.container-2015homepage h3,
+.container-2015homepage h4,
+.container-2015homepage h5,
+.container-2015homepage h6 {
+	font-weight: bold;
+}
+
+/* Text alignment */
+
+.content-2015homepage,
+.hero-categories-2015homepage,
+#footer.footer-2015homepage,
+#footer.footer-2015homepage li {
+	text-align: center;
+}
+
+/* Lists */
+
+.column-2-2015homepage li {
+	list-style-position: inside;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Orange */
+
+#footer.footer-2015homepage li {
+	background: #ec6707;
+}
+
+/* Light orange #fe8929 */
+
+#footer.footer-2015homepage li:hover {
+	background: #fe8929;
+}
+
+/* Light orange #F8A32E */
+
+.background-orange-2015homepage h6 a:hover {
+	color: #F8A32E;
+}
+
+/* Light orange #FF8D3A */
+
+.background-orange-2015homepage,
+.background-orange-2015homepage h1,
+.background-orange-2015homepage h2,
+.background-orange-2015homepage h3,
+.background-orange-2015homepage h4,
+.background-orange-2015homepage h5,
+.background-orange-2015homepage h6,
+.background-orange-2015homepage a {
+	color: #FF8D3A;
+}
+
+/* Warm dark gray */
+
+.background-orange-2015homepage {
+	background: #352C26;
+}
+
+/* Gray */
+
+.background-gray-2015homepage {
+	background: #666;
+}
+
+#footer.footer-2015homepage {
+  background: #333 !important;
+}
+
+/* White */
+.background-gray-2015homepage,
+.background-gray-2015homepage h1,
+.background-gray-2015homepage h2,
+.background-gray-2015homepage h3,
+.background-gray-2015homepage h4,
+.background-gray-2015homepage h5,
+.background-gray-2015homepage h6,
+#footer.footer-2015homepage li {
+	color: #fff;
+}
+
+#footer.footer-2015homepage li a:hover {
+	color: #fff !important;
+}
+
+#container.container-2015homepage,
+.header-2015pages {
+	background: #fff;
+}
+
+/* Colorless */
+
+.logo-holder-2015homepage {
+	border-bottom: none;
+}
+
+/* Background image */
+
+.hero-2015homepage {
+	background: url('http://kaast-usa.com/wp-content/uploads/lathe-dark-logo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Dimensions */
+
+.logo-background-2015homepage {
+	height: 77px;
+	min-height: 77px;
+}
+
+.hero-2015homepage {
+	height: 200px;
+}
+
+.content-2015homepage {
+	box-sizing: border-box;
+}
+
+.hero-categories-2015homepage {
+	width: 121px;
+}
+
+.hero-categories-2015homepage img,
+.column-2-2015homepage,
+.column-2-2015homepage img,
+.column-4-2015homepage {
+	width: 100%;
+}
+
+.footer_info .column-2-2015homepage img,
+.footer-2015homepage .footer-logo {
+	width: 100px;
+}
+
+.column-2-2015homepage.customers img {
+	width: auto;
+	max-width: calc(50% - 1em);
+	height: 8em;
+	max-height: 200px;
+}
+
+/* Padding */
+
+#container.container-2015homepage,
+#container.container-2015pages, /* Fix other pages */
+.logo-background-2015homepage {
+	padding: 0;
+}
+
+.page-template-2015homepage .content-wrapper-2015homepage,
+.responsive .content-wrapper-2015homepage {
+	padding: 2em 0 1em;
+}
+
+.content-wrapper-2015homepage #navigation_bar > ul > li > a {
+  padding: 24px 10px 10px;
+}
+
+.content-2015homepage {
+	padding: 3em 1em;
+}
+
+#footer.footer-2015homepage li {
+	padding: .5em;
+}
+
+/* Margins */
+
+.content-wrapper-2015homepage #navigation_bar > ul > li > a {
+  margin: 0;
+}
+
+.content-wrapper-2015homepage .nav-number {
+	margin: .25em 0 0;
+}
+
+.hero-categories-2015homepage {
+	margin-right: 16px;
+}
+
+.hero-categories-2015homepage.last {
+	margin-right: 0;
+}
+
+.hero-categories-2015homepage img {
+  margin: 0 0 1em;
+}
+
+.column-2-2015homepage.customers {
+	margin: 2em 0 0;
+}
+
+.column-2-2015homepage.customers img:first-of-type {
+	margin-right: 1em;
+}
+
+.column-4-2015homepage {
+	margin: 0 0 2em;
+}
+
+#footer.footer-2015homepage li {
+	margin: 0 0 .25em;
+}
+
+/* Position */
+
+#logo.logo-2015homepage {
+	top: 0;
+	left: 0;
+}
+
+.page-template-2015homepage #navigation_bar,
+.responsive #navigation_bar {
+	top: 0;
+}
+
+.content-wrapper-2015homepage #navigation > li > ul {
+	top: 51px;
+}
+
+/* Display properties */
+
+.hero-categories-2015homepage {
+	display: inline-block;
+}
+
+.column-2-2015homepage,
+.column-4-2015homepage,
+#footer.footer-2015homepage li {
+	display: block;
+}
+
+/* Floats */
+
+.content-wrapper-2015homepage .nav-number {
+	float: none;
+}
+
+/* ---------- Media queries ---------- */
+
+/* ----- Tablet ----- */
+@media screen and (min-width: 768px) {
+
+	/* ----- Typography ----- */
+
+	/* Text alignment */
+
+	.content-2015homepage {
+		text-align: left;
+	}
+
+	.background-orange-2015homepage .content {
+		text-align: center;
+	}
+
+	/* Lists */
+
+	.column-2-2015homepage li {
+		list-style-position: default;
+	}
+
+	/* ----- Colors, borders and backgrounds ----- */
+
+	/* Orange */
+
+	.column-4-2015homepage:nth-child(even) {
+		border-right: 1px solid #ec6707;
+		border-left: 1px solid #ec6707;
+	}
+
+	/* Colorless */
+
+	.column-4-2015homepage.last {
+		border-right: none;
+	}
+
+	/* ----- Display properties ----- */
+
+	/* Dimensions */
+
+	.hero-2015homepage {
+		height: 300px;
+	}
+
+	.column-2-2015homepage {
+		width: calc(50% - 2em);
+	}
+
+	.column-4-2015homepage {
+		width: calc(25% - 2em);
+	}
+
+	.column-4-2015homepage:nth-child(even) {
+		width: calc(25% - 2em - 2px);
+	}
+
+	.column-4-2015homepage.last {
+		width: calc(25% - 2em - 1px);
+	}
+
+	/* Padding */
+
+	.content-wrapper-2015homepage {
+		padding: 2em 0 1em;
+	}
+
+	.column-4-2015homepage {
+		padding: 0 1em;
+	}
+
+	.column-4-2015homepage.last {
+		padding-right: 0;
+	}
+
+	.background-orange-2015homepage .content-2015homepage {
+		padding: 3em;
+	}
+
+	#footer.footer-2015homepage li {
+		padding: .25em;
+	}
+
+	/* Margins */
+
+	.content-wrapper-2015homepage .nav-number {
+		margin: 0;
+	}
+
+	.column-2-2015homepage {
+		margin-right: 2em;
+	}
+
+	.column-2-2015homepage.last {
+		margin-right: 0;
+	}
+
+	.column-2-2015homepage.customers {
+		margin: 6em 0 0;
+	}
+
+	.column-2-2015homepage.international-offices {
+		margin: 3em 0 0;
+	}
+
+	.column-4-2015homepage {
+		margin: 0;
+	}
+
+	/* Display properties */
+
+	.column-2-2015homepage,
+	.column-4-2015homepage {
+		display: inline-block;
+	}
+
+	/* Floats */
+
+	.column-2-2015homepage,
+	.column-4-2015homepage {
+		float: left;
+	}
+
+	.content-wrapper-2015homepage .nav-number {
+		float: none;
+	}
+
+}
+
+/* ----- Desktop ----- */
+@media screen and (min-width: 960px) {
+
+	/* ----- Display properties ----- */
+
+	/* Dimensions */
+
+	.hero-2015homepage {
+		height: 350px;
+	}
+
+	/* Padding */
+
+	.page-template-2015homepage .content-wrapper-2015homepage {
+		padding: 1.75em 0 1em;
+	}
+
+	.content-2015homepage {
+		padding: 3em 0;
+	}
+
+	.background-orange-2015homepage .content-2015homepage {
+		padding: 3em 0;
+	}
+
+	/* Margins */
+
+	.content-wrapper-2015homepage .nav-number {
+		margin: 0 1em 0 0;
+	}
+
+	.column-2-2015homepage.production-partner {
+		margin: 3em 0 0;
+	}
+
+	.column-2-2015homepage.customers {
+		margin: 4em 0 0;
+	}
+
+	.column-2-2015homepage.international-offices {
+		margin: 9em 0 0;
+	}
+
+	/* Floats and clears */
+
+	.content-wrapper-2015homepage .nav-number {
+		float: right;
+		clear: right;
+	}
+
+}
+
+
+
+
+
+
+
+/* -------------------- Specials page -------------------- */
+
+
+
+/* ---------- Typography ---------- */
+
+/* Font size and line height */
+
+.specials,
+.specials-hero h3 {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.specials-hero-button {
+	font-size: 20px;
+}
+
+.specials h2,
+.specials-price {
+	font-size: 26px;
+}
+
+.specials-hero h2 {
+	font-size: 28px;
+}
+
+.specials-product-view-more {
+  font-size: 12px;
+}
+
+/* Font styles and weight */
+
+.specials-products a {
+	font-weight: normal;
+}
+
+.specials h1,
+.specials h2,
+.specials h3,
+.specials h4,
+.specials h5,
+.specials h6,
+.specials-price,
+.specials-product-view-more a {
+	font-weight: bold;
+}
+
+/* Text alignment */
+
+.specials,
+.specials-product,
+.specials-footer,
+.specials-product-view-more {
+	text-align: center;
+}
+
+/* Lists */
+
+.specials-hero ul {
+	list-style: none;
+}
+
+/* ---------- Colors, borders and backgrounds ---------- */
+
+/* Warm dark gray */
+
+.specials-hero,
+.specials-footer {
+	background: #352C26;
+}
+
+.specials-hero a {
+	color: #352C26;
+}
+
+/* Dark gray */
+
+.specials,
+.specials-products a {
+	color: #222;
+}
+
+/* Orange */
+
+.specials-footer a,
+.specials-price,
+.specials-product-view-more a {
+	color: #ec6707;
+}
+
+.specials-hero a.specials-hero-button,
+.specials-hero li:hover,
+.specials-product-container {
+	background: #ec6707;
+}
+
+.specials-product-view-more {
+  border-top: 1px solid #ec6707;
+}
+
+/* Lighter orange */
+
+.specials-hero h2,
+.specials-footer a:hover,
+.specials-product-view-more a:hover {
+	color: #FF8D3A;
+}
+
+.specials-product-container {
+	border: 1px solid #FF8D3A;
+}
+
+.specials-hero a.specials-hero-button:hover,
+.specials-hero li {
+	background: #FF8D3A;
+}
+
+/* White */
+
+.specials-hero,
+.specials-hero a.specials-hero-button,
+.specials-hero h3,
+.specials-footer {
+	color: #fff;
+}
+
+.specials-product,
+.specials-product-view-more {
+	background: #fff;
+}
+
+/* Colorless */
+
+.specials-product {
+	opacity: 1;
+}
+
+.specials-product:hover {
+	opacity: 0.7;
+}
+
+/* ---------- Box model: Dimensions, padding and margins ---------- */
+
+/* Dimensions */
+
+.specials-hero {
+	height: 930px;
+}
+
+.specials-hero-column {
+	width: 100%;
+}
+
+/* Padding */
+
+.specials-hero,
+.specials-footer {
+	padding: 2em 20px;
+}
+
+.specials-hero h3 {
+	padding: 0 0 .5em;
+}
+
+.specials-hero a,
+.specials-hero li,
+.specials-product-view-more {
+	padding: .5em;
+}
+
+.specials-hero a.specials-hero-button {
+	padding: .5em 2em;
+}
+
+.specials-products h2,
+.specials-products p {
+	padding: 0;
+}
+
+.specials-product {
+	padding: 1em;
+}
+
+/* Margins */
+
+.specials-hero {
+	margin: -20px -20px 1em;
+}
+
+.specials-hero ul {
+	margin: 0 0 1em;
+}
+
+.specials-hero li {
+	margin: 0 0 .25em;
+}
+
+.specials-hero-button-container {
+	margin: 1em 0 0;
+}
+
+.specials-footer {
+	margin: 1em -20px -144px;
+}
+
+.specials-product-container {
+	margin: 0 0 1.25em;
+}
+
+.specials-product img {
+	margin: 0 -1em;
+}
+
+/* ---------- Display properties ---------- */
+
+.page-id-5869 .head_text {
+  display: none;
+}
+
+/* ---------- Floats and clears ---------- */
+
+.specials-hero-column {
+	float: none;
+}
+
+
+
+/* ---------- Media Queries ---------- */
+
+/* Mobile horizontal */
+@media only screen and (min-width: 480px) {
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	/* Dimensions */
+
+	.specials-hero {
+		height: 880px;
+	}
+
+}
+
+/* ----- Tablet ----- */
+@media only screen and (min-width: 768px) {
+
+	/* ----- Typography ----- */
+
+	/* Font size and line height */
+
+	.specials-hero h2 {
+		font-size: 28px;
+	}
+
+	/* Text alignment */
+
+	.specials {
+		text-align: left;
+	}
+
+	/* ----- Colors, borders and backgrounds ----- */
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	/* Dimensions */
+
+	.specials-hero {
+		height: 450px;
+	}
+
+	.specials-hero-column {
+		width: calc(33% - 1em);
+	}
+
+	.specials-hero-column.last {
+		width: calc(34% - 2em);
+	}
+
+	.specials-product-container {
+		width: 342px;
+	}
+
+	/* Padding */
+
+	.specials-hero a,
+	.specials-hero li {
+		padding: .5em .2em;
+	}
+
+	/* Margins */
+
+	.specials-hero-column.second,
+	.specials-hero-column.last {
+		margin: 0 0 0 2em;
+	}
+
+	.specials-product-container:nth-of-type(even) {
+		margin: 0 0 1.25em 1.25em;
+	}
+
+	/* ----- Displays, floats, clears and overflows ----- */
+
+	.specials-hero-column,
+	.specials-product-container {
+		float: left;
+	}
+
+	.specials-product-container:nth-of-type(even) {
+		float: right;
+	}
+
+	/* Clears */
+
+	.specials-product-container {
+		clear: both;
+	}
+
+	.specials-product-container:nth-of-type(even) {
+		clear: right;
+	}
+
+	/* Overflow */
+
+	.specials-products {
+		overflow: auto;
+	}
+	
+}
+
+/* ----- Desktop ----- */
+@media only screen and (min-width: 960px) {
+
+	/* ----- Typography ----- */
+
+	/* Font size and line height */
+
+	.specials-hero h2 {
+		/*font-size: 34px;*/
+		font-size: 48px;
+		line-height: 1.2;
+	}
+
+	/* ----- Colors, borders and backgrounds ----- */
+
+	/* ----- Box model: Dimensions, padding and margins ----- */
+
+	/* Dimensions */
+
+	.specials-product-container {
+		width: 298px;
+	}
+
+	/* Padding */
+
+	.specials-hero a,
+	.specials-hero li {
+		padding: .5em;
+	}
+
+	/* Margins */
+
+	.specials-product-container:nth-of-type(even) {
+		margin: 0 0 1.25em;
+	}
+
+	.specials-product-container:nth-of-type(3n+2),
+	.specials-product-container:nth-of-type(3n+3) {
+		margin: 0 0 1.25em 1.25em;
+	}
+
+	/* ----- Displays, floats, clears and overflows ----- */
+
+	/* Floats */
+
+	.specials-product-container,
+	.specials-product-container:nth-of-type(even) {
+		float: left;
+	}
+
+	/* Clears */
+
+	.specials-product-container,
+	.specials-product-container:nth-of-type(even) {
+		clear: none;
+	}
+
+	.specials-product-container:nth-of-type(3n+1) {
+		clear: left;
+	}
+	
+}
+
+/* Responsive video embeds */
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	/* Hide navigation sub menu items on mobile devices */
+	nav #navigation_bar #MobileMainNavigation-Background select#MobileMainNavigation option.menu-item-depth-2,
+	nav #navigation_bar #MobileMainNavigation-Background select#MobileMainNavigation option.menu-item-depth-3 { display: none !important; }
+}
